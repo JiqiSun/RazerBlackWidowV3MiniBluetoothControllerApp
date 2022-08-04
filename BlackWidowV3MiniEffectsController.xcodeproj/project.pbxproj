@@ -11,6 +11,7 @@
 		061C52BE289C0362000FB79E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C52BD289C0362000FB79E /* ContentView.swift */; };
 		061C52C0289C0362000FB79E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061C52BF289C0362000FB79E /* Assets.xcassets */; };
 		061C52C3289C0362000FB79E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061C52C2289C0362000FB79E /* Preview Assets.xcassets */; };
+		061C52CB289C0D0E000FB79E /* BluetoothModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C52CA289C0D0E000FB79E /* BluetoothModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		061C52BF289C0362000FB79E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061C52C2289C0362000FB79E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		061C52C4289C0362000FB79E /* BlackWidowV3MiniEffectsController.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlackWidowV3MiniEffectsController.entitlements; sourceTree = "<group>"; };
+		061C52CA289C0D0E000FB79E /* BluetoothModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothModel.swift; sourceTree = "<group>"; };
+		066201C7289C24DF00B03E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +55,13 @@
 		061C52BA289C0362000FB79E /* BlackWidowV3MiniEffectsController */ = {
 			isa = PBXGroup;
 			children = (
+				066201C7289C24DF00B03E91 /* Info.plist */,
 				061C52BB289C0362000FB79E /* BlackWidowV3MiniEffectsControllerApp.swift */,
 				061C52BD289C0362000FB79E /* ContentView.swift */,
 				061C52BF289C0362000FB79E /* Assets.xcassets */,
 				061C52C4289C0362000FB79E /* BlackWidowV3MiniEffectsController.entitlements */,
 				061C52C1289C0362000FB79E /* Preview Content */,
+				061C52CA289C0D0E000FB79E /* BluetoothModel.swift */,
 			);
 			path = BlackWidowV3MiniEffectsController;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			files = (
 				061C52BE289C0362000FB79E /* ContentView.swift in Sources */,
 				061C52BC289C0362000FB79E /* BlackWidowV3MiniEffectsControllerApp.swift in Sources */,
+				061C52CB289C0D0E000FB79E /* BluetoothModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlackWidowV3MiniEffectsController/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow Bluetooth access to connect to devices.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +309,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlackWidowV3MiniEffectsController/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow Bluetooth access to connect to devices.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
