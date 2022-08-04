@@ -2,7 +2,7 @@
 //  BlackWidowV3MiniEffectsControllerApp.swift
 //  BlackWidowV3MiniEffectsController
 //
-//  Created by Jiqi Sun on 04/08/2022.
+//  Created by Stan on 04/08/2022.
 //
 
 import Cocoa

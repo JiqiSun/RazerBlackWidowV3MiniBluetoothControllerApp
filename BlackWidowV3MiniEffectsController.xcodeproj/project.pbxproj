@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0619848F289C42F900AB485E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		061C52B8289C0362000FB79E /* BlackWidowV3MiniEffectsController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackWidowV3MiniEffectsController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061C52BB289C0362000FB79E /* BlackWidowV3MiniEffectsControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackWidowV3MiniEffectsControllerApp.swift; sourceTree = "<group>"; };
 		061C52BD289C0362000FB79E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 				061C52C4289C0362000FB79E /* BlackWidowV3MiniEffectsController.entitlements */,
 				061C52C1289C0362000FB79E /* Preview Content */,
 				061C52CA289C0D0E000FB79E /* BluetoothModel.swift */,
+				0619848F289C42F900AB485E /* README.md */,
 			);
 			path = BlackWidowV3MiniEffectsController;
 			sourceTree = "<group>";
@@ -281,6 +283,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlackWidowV3MiniEffectsController/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow Bluetooth access to connect to devices.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +313,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlackWidowV3MiniEffectsController/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Please allow Bluetooth access to connect to devices.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
