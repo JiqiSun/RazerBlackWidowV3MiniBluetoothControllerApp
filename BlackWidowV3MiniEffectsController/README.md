@@ -35,6 +35,7 @@ Wave effect hex value
 
 
 Static white effect hex value
+
 01000001ffffff000000
 
 
