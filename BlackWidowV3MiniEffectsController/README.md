@@ -4,7 +4,10 @@ A minimal viable Mac App allows changing Razer BlackWidow V3 Mini effect to stat
 
 # How to use
 
-Build from the source code and launch the App. Switch off the Bluetooth mode and turn it on after launching the App.
+1. Check Bluetooth in Signing & Capabilities  -> App Sandbox
+2. Add Privacy - Bluetooth Always Usage Description key in Info Property List
+3. Build from the source code and launch the App. 
+4. Switch off the Bluetooth mode and turn it on after launching the App.
 
 # Tools
 
@@ -52,3 +55,7 @@ Color ref.:
 white: ffffff
 
 green: 00ff00
+
+
+
+
